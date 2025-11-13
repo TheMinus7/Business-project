@@ -53,13 +53,6 @@ export default function Header() {
             );
           })}
         </nav>
-
-        <Link
-          href="#"
-          className={`${inter.className} ml-auto rounded-full bg-lime-300 px-5 py-2 text-[18px] font-semibold text-green-900 shadow hover:bg-lime-400`}
-        >
-          Download App
-        </Link>
       </div>
     </header>
   );
