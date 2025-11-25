@@ -14,7 +14,7 @@ export default function Home() {
           </div>
 
           <div className="hero-circle circle-center">
-            <div className="circle-text">ARE YOU READY?</div>
+            <div className="circle-text">ТА БЭЛЭН ҮҮ?</div>
           </div>
 
           <div className="hero-circle circle-right">
