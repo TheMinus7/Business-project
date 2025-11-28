@@ -13,6 +13,8 @@ const loggedOutNav = [
 const loggedInNav = [
   { href: "/investment", label: "Хөрөнгө оруулалт" },
   { href: "/donation", label: "Хандив тусламж" },
+  { href: "/about", label: "Бидний тухай" },
+  { href: "/team", label: "Бүлгэм" },
   { href: "/settings", label: "Settings" },
 ];
 
@@ -26,7 +28,9 @@ export default function Header() {
     <header className="top-bar">
       <div className="logo">
         <img src="/img/6.png" alt="CrowdFund logo" className="logo-img" />
-        <span className="logo-text">CrowdFund</span>
+        <span className="logo-text">
+          <Link href="/">CrowdFund</Link>
+        </span>
       </div>
       <nav className="nav">
         {navItems.map((item) => (
